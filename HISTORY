@@ -1,0 +1,75 @@
+Nanotech Construction Kit Change History
+========================================
+
+Nanotech Construction Kit 1.3:
+- Beginning of history file
+
+Nanotech Construction Kit 1.4:
+- Adapted to Vrui-2.1; bumped Vrui requirement to Vrui 2.1-001.
+- Changed build system to simplify creating binary packages.
+
+Nanotech Construction Kit 1.5:
+- Modernized menu appearance.
+- Added file selection dialog to "Load Units..." menu entry.
+
+Nanotech Construction Kit 1.6:
+- Adapted to Vrui-2.2; bumped Vrui requirement to Vrui 2.2-001.
+- Changed build system to use Vrui's new modular build system.
+
+Nanotech Construction Kit 1.7
+- Bumped Vrui requirement to Vrui 2.4-001.
+
+Nanotech Construction Kit 1.8
+- Bumped Vrui requirement to Vrui 2.6-001.
+
+Nanotech Construction Kit 1.9
+- Bumped Vrui requirement to Vrui 3.0-001.
+
+Nanotech Construction Kit 2.0
+- Bumped Vrui requirement to Vrui 4.5-004.
+- Added complete re-implementation of Nanotech Construction Kit with a
+  multi-threaded simulation to ensure hitting target frame rate on VR
+  displays, and a separate server application for remote collaboration.
+
+Nanotech Construction Kit 2.1
+- Bumped Vrui requirement to Vrui 5.0-001.
+
+Nanotech Construction Kit 2.3
+- Fixed spurious bug when deleting multiple units as a complex.
+- Major code reorganization and clean-up.
+
+Nanotech Construction Kit 2.4
+- Bumped Vrui requirement to Vrui 7.0-001.
+- Added requirement for Vrui Collaboration Infrastructure, version 4.1
+  or newer.
+- Removed stand-alone server application and re-implemented as a server
+  module for the Vrui Collaboration Infrastructure.
+
+Nanotech Construction Kit 2.5
+- Bumped Vrui requirement to Vrui 8.0-001.
+- Bumped Vrui Collaboration Infrastructure requirement to 5.0.
+- Adapted collaboration components to new Collab namespace.
+- Adapted makefile to new Vrui build system.
+
+Nanotech Construction Kit 2.6
+- Bumped Vrui requirement to Vrui 9.0-005.
+- Bumped Vrui Collaboration Infrastructure requirement to 5.3.
+
+Nanotech Construction Kit 2.7
+- Bumped Vrui requirement to Vrui 10.0-001.
+- Bumped Vrui Collaboration Infrastructure requirement to 6.1.
+- Added capability to load / save files into/from a remote NCK server.
+
+Nanotech Construction Kit 2.8
+- Bumped Vrui requirement to Vrui 12.0-001.
+- Bumped Vrui Collaboration Infrastructure requirement to 10.0.
+- Adapted to continuation API change in Collab::Plugins::KoinoniaClient.
+- Adapted to new Vrui make system.
+
+Nanotech Construction Kit 2.8
+- Bumped Vrui requirement to Vrui 13.1-001.
+- Bumped Vrui Collaboration Infrastructure requirement to 10.3.
+- Reorganized sources for release on GitHub.
+- Adapted to new Vrui make system.
+- Replaced -D configuration with Config.h header file.
+- Fixed a bunch of smaller issues.
