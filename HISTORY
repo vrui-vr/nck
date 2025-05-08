@@ -66,10 +66,12 @@ Nanotech Construction Kit 2.8
 - Adapted to continuation API change in Collab::Plugins::KoinoniaClient.
 - Adapted to new Vrui make system.
 
-Nanotech Construction Kit 2.8
+Nanotech Construction Kit 2.9
 - Bumped Vrui requirement to Vrui 13.1-001.
 - Bumped Vrui Collaboration Infrastructure requirement to 10.3.
 - Reorganized sources for release on GitHub.
 - Adapted to new Vrui make system.
 - Replaced -D configuration with Config.h header file.
 - Fixed a bunch of smaller issues.
+- Added installplugins target to makefile to separate installation of
+  the package itself from installation of the collaboration plug-in.
